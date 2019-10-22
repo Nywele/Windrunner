@@ -8,7 +8,8 @@
 		<version>2.2.0.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>top.yeonon</groupId>
+
+	<groupId>com.nywele</groupId>
 	<artifactId>windrunner</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>windrunner</name>
@@ -19,20 +20,23 @@
 	</properties>
 
 	<dependencies>
+<!--		jpa支持-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
+<!--		web Mvc-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+<!--mysql connector-->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+<!--		spring boot test-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
