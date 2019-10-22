@@ -1,4 +1,4 @@
-package top.yeonon.windrunner;
+package com.nywele.windrunner;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
