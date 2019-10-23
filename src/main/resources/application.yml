@@ -2,6 +2,9 @@ server:
   port: 8080
 
 spring:
+  application:
+    name: windrunner
+
   datasource:
     url: jdbc:mysql://localhost:3306/windrunner?useSSL=false
     username: root
